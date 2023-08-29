@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+form{
+    width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 7px;
+    font-size: 16px;
+    border: 2px solid gray;
+    color: rgb(27, 24, 24);
+    margin: 5px 0px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: gray;
+}
+
+input:focus{
+    border-color:rgb(15, 15, 16);
+}
+
+button{
+    width: 100%;
+    margin: 16px 0px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color:black;
+    font-weight: bold;
+}
+
+.inputDiv{
+    margin-bottom: 10px;
+}
