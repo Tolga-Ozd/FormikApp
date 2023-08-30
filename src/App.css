@@ -48,6 +48,17 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    opacity: 0.9;
+    transition: 0.4s linear;
+    color: red;
+}
+
 .inputDiv{
     margin-bottom: 10px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
 }

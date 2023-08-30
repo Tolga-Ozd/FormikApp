@@ -18,7 +18,7 @@ function GeneralForm() {
             <input type="email" 
             value={values.email}
             id='email'
-            placeholder='Mailinizi giriniz'
+            placeholder='Mail adresinizi giriniz'
             onChange={handleChange}
             />
         </div>
@@ -41,7 +41,7 @@ function GeneralForm() {
             />
         </div>
         <div className='inputDiv' >
-            <label>Şifre Tekrarı </label>
+            <label>Şifre Tekrar </label>
             <input type="password" 
             value={values.confirmPassword}
             id='confirmPassword'
